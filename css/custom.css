@@ -2,3 +2,7 @@ img.masthead-avatar.mb-5 {
     border: solid white 3px;
     border-radius: 50%;
 }
+
+header.masthead.bg-primary.text-white.text-center {
+    height: 700px;
+}
