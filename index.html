@@ -206,10 +206,10 @@
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          <p class="lead">I am a student at ISEP in Paris, there I am learning a lot of things about every technologies but I am specializing in electronic and embedded systems. In addition to the classical formation I like to make some projects to learn by myself, that is why I am also in GarageISEP, the innovation association of the school, in order to make a lot of projects.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          <p class="lead">Outside of school I make a lot of sport (marathon, hiking, musculation, ...) and music (piano, guitar), I like to keep myself busy. I am serious, calm and a fast learner thanks to my curiosity.</p>
         </div>
       </div>
 
@@ -363,10 +363,12 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">From august 2019 to January 2020 I was an intern at Weglot, a growing startup in Paris that created an app to automate website translations. In addition to the job of product specialist I had there I delivered two projects to help the team work faster.</p>
+                <p class="mb-5">From august 2019 to January 2020 I was an intern at Weglot, a growing startup in Paris that created an app to automate website translations. In addition to the job of product specialist I had there I delivered two projects to help the team work faster.
+                  <img class="img-fluid rounded mb-5" src="img/portfolio/weglot-demo.jpg" alt="">
+                  <br>The biggest one is the automation of the churn reporting process, it previously needed half an hour to one person each day to report each client cancellation in a google sheet, I created a python program to communicate with multiple APIs in order to gather all the needed information (Chart Mogul, helpscout, google, stripe) and then write them in the google sheet automatically. The program runs on an Ubuntu instance on aws, thanks to a CRON command each day at 3am the code runs itself.
+                  The most interesting part of it is the mail analysis, each cancellation is associated to a mail explaining the reason (to expensive, no need, ...) and the mails need to be sorted in six categories, I implemented a decision tree to automatically sort the mails, the only flaw of that method is that a lot of emails just make no sense, so sometimes human correction is needed.
+                </p>
                 
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
@@ -457,7 +459,8 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/connect4-demo.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">I created this project to understand how games artificial intelligence work. This javascript program allows you to play against another human player, or against the AI I programmed, it works with a search tree that inspects the five moves ahead to make the best move, if the AI starts it is nearly unbeatable. <br>
+                I am really proud of the final result and of everything I learned about search trees.</p>
                 <a class="btn btn-primary" href="projects/connect-4/connect4.html">Check it out!</a>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
